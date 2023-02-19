@@ -10,7 +10,16 @@ import theme from "./theme";
 // // import CenterTest from "./Components/CenterTest";
 // import ContainerTest from "./Components/ContainerTest";
 // import FlexTest from "./Components/FlexTest";
-import GridTest from "./Components/GridTest";
+// import GridTest from "./Components/GridTest";
+
+// import SimpleGridTest from "./Components/SimpleGridTest";
+// import StackEx from "./Components/StackTest";
+// import WrapTest from "./Components/WrapTest";
+// import CheckboxTest from "./Components/CheckboxTest";
+
+// import ButtonTest from "./Components/ButtonTest";
+import IntermidiateExample from "./Components/IntermidiateExample";
+import CheckboxGroupTest from "./Components/CheckboxGroupTest";
 
 function App() {
   return (
@@ -18,8 +27,15 @@ function App() {
       <ColorModeScript initialColorMode="light" />
 
       <h1>Hello world </h1>
+      <CheckboxGroupTest />
+{/* <CheckboxTest /> */}
+<IntermidiateExample />
+      {/* <ButtonTest /> */}
+      {/* <WrapTest /> */}
+      {/* <StackEx />
+<SimpleGridTest /> */}
 
-      <GridTest />
+      {/* <GridTest /> */}
       {/* <FlexTest />
 <ContainerTest />
 
